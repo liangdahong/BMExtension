@@ -1,0 +1,22 @@
+{
+  "name": "BMExtension",
+  "version": "0.1.0",
+  "summary": "A short description of BMExtension.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ios@liangdahong.com/BMExtension",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ios@liangdahong.com": "liangdahong@bluemoon.com.cn"
+  },
+  "source": {
+    "git": "https://github.com/ios@liangdahong.com/BMExtension.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BMExtension/Classes/**/*"
+}

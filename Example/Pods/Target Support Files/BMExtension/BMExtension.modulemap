@@ -1,0 +1,6 @@
+framework module BMExtension {
+  umbrella header "BMExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}

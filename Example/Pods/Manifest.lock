@@ -1,0 +1,16 @@
+PODS:
+  - BMExtension (0.1.0)
+
+DEPENDENCIES:
+  - BMExtension (from `../`)
+
+EXTERNAL SOURCES:
+  BMExtension:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BMExtension: e30f5054881f59a6af5fb79611bf268af9f7b1ee
+
+PODFILE CHECKSUM: 32783f16f2cbc439c60b1cd28aa3e75e4bc30c37
+
+COCOAPODS: 1.9.3
