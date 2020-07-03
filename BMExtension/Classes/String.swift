@@ -8,22 +8,21 @@
 
 import Foundation
 
-extension String: BMExtensionCompatible {
-    
-}
+extension String: BMExtensionCompatible { }
 
 public extension BMExtension where Base == String {
     /// 是否为电话号码
     var isTelephoneNumber: Bool {
-        if base.count != 11 {
+
+        guard base.count == 11 else {
             return false
         }
 
         let first = self.base[self.base.startIndex]
-        if first != "1" {
+        guard first == "1" else {
             return false
         }
-        
+
         for ch in self.base where ("0"..."9").contains(ch) == false {
             return false
         }
